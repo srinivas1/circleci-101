@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: smangalipelli/myapp:1.0.0
+      - image: smangalipelli/app-test:tagname
     steps:
       - checkout
       - run: echo "A first hello"
